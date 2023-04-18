@@ -12,7 +12,7 @@ const handleSubmit = (event) => {
     <div className="App">
 
   <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 py-6">
-      <div className=" absolute w-[70%] h-[90vh] flex justify-center items-center rotate-3 rounded-xl bg-gradient-to-r from-teal-400 to-blue-500 shadow-lg ">  </div>
+      <div className=" absolute w-[70%] h-[90vh] sm:h-[50vh] flex justify-center items-center rotate-3 rounded-xl bg-gradient-to-r from-teal-400 to-blue-500 shadow-lg ">  </div>
 
       <div className=" relative px-4 py-10 bg-white rounded-xl  shadow-lg sm:rounded-3xl sm:p-20">
         <form onSubmit={handleSubmit}>
